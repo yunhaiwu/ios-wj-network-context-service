@@ -1,12 +1,11 @@
 Pod::Spec.new do |s|
 
-
 s.name         = "WJNetworkContextService"
 s.version      = "1.0"
 s.summary      = "network context service."
 
 s.description  = <<-DESC
-    http请求组件API
+    网络环境服务，网络连接状态、通知等
 DESC
 
 s.homepage     = "https://github.com/yunhaiwu"
