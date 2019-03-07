@@ -1,0 +1,31 @@
+PODS:
+  - AFNetworking/Reachability (3.2.1)
+  - WJAppContext (2.0.2):
+    - WJConfig
+    - WJLoggingAPI
+  - WJConfig (2.0):
+    - WJLoggingAPI (>= 2.0)
+  - WJLoggingAPI (2.0)
+
+DEPENDENCIES:
+  - AFNetworking/Reachability (~> 3.1)
+  - WJAppContext (~> 2.0.0)
+  - WJConfig
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+  https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git:
+    - WJAppContext
+    - WJConfig
+    - WJLoggingAPI
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  WJAppContext: 63e3fdc4da09c14d20054de2f942dda4a0683d22
+  WJConfig: deda632fdec1562c21e62be1acace6346c0cceca
+  WJLoggingAPI: 183581a351d51f93ec9900a3cc5f2df15b907de3
+
+PODFILE CHECKSUM: 005a8ac5e8e2684040c6e92212ff2fbfea105bff
+
+COCOAPODS: 1.5.3

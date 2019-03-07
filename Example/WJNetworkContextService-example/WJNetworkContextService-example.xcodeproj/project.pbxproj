@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60156261222FD0F200F5AA6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60156260222FD0F200F5AA6D /* AppDelegate.m */; };
+		60156264222FD0F200F5AA6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60156263222FD0F200F5AA6D /* ViewController.m */; };
+		60156267222FD0F200F5AA6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60156265222FD0F200F5AA6D /* Main.storyboard */; };
+		60156269222FD0F300F5AA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60156268222FD0F300F5AA6D /* Assets.xcassets */; };
+		6015626C222FD0F300F5AA6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6015626A222FD0F300F5AA6D /* LaunchScreen.storyboard */; };
+		6015626F222FD0F400F5AA6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6015626E222FD0F400F5AA6D /* main.m */; };
+		60156278222FD11C00F5AA6D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 60156276222FD11C00F5AA6D /* README.md */; };
+		60156279222FD11C00F5AA6D /* WJNetworkContextService.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 60156277222FD11C00F5AA6D /* WJNetworkContextService.podspec */; };
+		6015627F222FD3C200F5AA6D /* DefaultNetworkContextService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6015627E222FD3C200F5AA6D /* DefaultNetworkContextService.m */; };
+		78C6C265E9B32EFEA9A683B9 /* libPods-WJNetworkContextService-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6E221FBAF2AE551916C78C /* libPods-WJNetworkContextService-example.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4ED6FE3EBF910C21DDD2FB18 /* Pods-WJNetworkContextService-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJNetworkContextService-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WJNetworkContextService-example/Pods-WJNetworkContextService-example.release.xcconfig"; sourceTree = "<group>"; };
+		586526BC1A4046786CD48C27 /* Pods-WJNetworkContextService-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJNetworkContextService-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJNetworkContextService-example/Pods-WJNetworkContextService-example.debug.xcconfig"; sourceTree = "<group>"; };
+		6015625C222FD0F200F5AA6D /* WJNetworkContextService-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WJNetworkContextService-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6015625F222FD0F200F5AA6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60156260222FD0F200F5AA6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60156262222FD0F200F5AA6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60156263222FD0F200F5AA6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60156266222FD0F200F5AA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60156268222FD0F300F5AA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6015626B222FD0F300F5AA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6015626D222FD0F400F5AA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6015626E222FD0F400F5AA6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60156276222FD11C00F5AA6D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		60156277222FD11C00F5AA6D /* WJNetworkContextService.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = WJNetworkContextService.podspec; path = ../../WJNetworkContextService.podspec; sourceTree = "<group>"; };
+		6015627A222FD16100F5AA6D /* WJNetworkContextService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJNetworkContextService.h; sourceTree = "<group>"; };
+		6015627D222FD3C200F5AA6D /* DefaultNetworkContextService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultNetworkContextService.h; sourceTree = "<group>"; };
+		6015627E222FD3C200F5AA6D /* DefaultNetworkContextService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultNetworkContextService.m; sourceTree = "<group>"; };
+		601562802230C29D00F5AA6D /* WJNetContextService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJNetContextService.h; sourceTree = "<group>"; };
+		AE6E221FBAF2AE551916C78C /* libPods-WJNetworkContextService-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJNetworkContextService-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60156259222FD0F200F5AA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C6C265E9B32EFEA9A683B9 /* libPods-WJNetworkContextService-example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60156253222FD0F200F5AA6D = {
+			isa = PBXGroup;
+			children = (
+				60156276222FD11C00F5AA6D /* README.md */,
+				60156277222FD11C00F5AA6D /* WJNetworkContextService.podspec */,
+				60156275222FD10700F5AA6D /* Classes */,
+				6015625E222FD0F200F5AA6D /* WJNetworkContextService-example */,
+				6015625D222FD0F200F5AA6D /* Products */,
+				7DC018B7A10D817E87801D4F /* Pods */,
+				85A48DE60F7FB362255A74E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6015625D222FD0F200F5AA6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6015625C222FD0F200F5AA6D /* WJNetworkContextService-example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6015625E222FD0F200F5AA6D /* WJNetworkContextService-example */ = {
+			isa = PBXGroup;
+			children = (
+				6015625F222FD0F200F5AA6D /* AppDelegate.h */,
+				60156260222FD0F200F5AA6D /* AppDelegate.m */,
+				60156262222FD0F200F5AA6D /* ViewController.h */,
+				60156263222FD0F200F5AA6D /* ViewController.m */,
+				60156265222FD0F200F5AA6D /* Main.storyboard */,
+				60156268222FD0F300F5AA6D /* Assets.xcassets */,
+				6015626A222FD0F300F5AA6D /* LaunchScreen.storyboard */,
+				6015626D222FD0F400F5AA6D /* Info.plist */,
+				6015626E222FD0F400F5AA6D /* main.m */,
+			);
+			path = "WJNetworkContextService-example";
+			sourceTree = "<group>";
+		};
+		60156275222FD10700F5AA6D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				601562802230C29D00F5AA6D /* WJNetContextService.h */,
+				6015627A222FD16100F5AA6D /* WJNetworkContextService.h */,
+				6015627D222FD3C200F5AA6D /* DefaultNetworkContextService.h */,
+				6015627E222FD3C200F5AA6D /* DefaultNetworkContextService.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		7DC018B7A10D817E87801D4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				586526BC1A4046786CD48C27 /* Pods-WJNetworkContextService-example.debug.xcconfig */,
+				4ED6FE3EBF910C21DDD2FB18 /* Pods-WJNetworkContextService-example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85A48DE60F7FB362255A74E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE6E221FBAF2AE551916C78C /* libPods-WJNetworkContextService-example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6015625B222FD0F200F5AA6D /* WJNetworkContextService-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60156272222FD0F400F5AA6D /* Build configuration list for PBXNativeTarget "WJNetworkContextService-example" */;
+			buildPhases = (
+				5FDFEFD60310C197474B7FE2 /* [CP] Check Pods Manifest.lock */,
+				60156258222FD0F200F5AA6D /* Sources */,
+				60156259222FD0F200F5AA6D /* Frameworks */,
+				6015625A222FD0F200F5AA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WJNetworkContextService-example";
+			productName = "WJNetworkContextService-example";
+			productReference = 6015625C222FD0F200F5AA6D /* WJNetworkContextService-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60156254222FD0F200F5AA6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = WJ;
+				TargetAttributes = {
+					6015625B222FD0F200F5AA6D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 60156257222FD0F200F5AA6D /* Build configuration list for PBXProject "WJNetworkContextService-example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60156253222FD0F200F5AA6D;
+			productRefGroup = 6015625D222FD0F200F5AA6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6015625B222FD0F200F5AA6D /* WJNetworkContextService-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6015625A222FD0F200F5AA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6015626C222FD0F300F5AA6D /* LaunchScreen.storyboard in Resources */,
+				60156279222FD11C00F5AA6D /* WJNetworkContextService.podspec in Resources */,
+				60156269222FD0F300F5AA6D /* Assets.xcassets in Resources */,
+				60156278222FD11C00F5AA6D /* README.md in Resources */,
+				60156267222FD0F200F5AA6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FDFEFD60310C197474B7FE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WJNetworkContextService-example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60156258222FD0F200F5AA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60156264222FD0F200F5AA6D /* ViewController.m in Sources */,
+				6015626F222FD0F400F5AA6D /* main.m in Sources */,
+				60156261222FD0F200F5AA6D /* AppDelegate.m in Sources */,
+				6015627F222FD3C200F5AA6D /* DefaultNetworkContextService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60156265222FD0F200F5AA6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60156266222FD0F200F5AA6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6015626A222FD0F300F5AA6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6015626B222FD0F300F5AA6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60156270222FD0F400F5AA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60156271222FD0F400F5AA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60156273222FD0F400F5AA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586526BC1A4046786CD48C27 /* Pods-WJNetworkContextService-example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WJNetworkContextService-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WJ.WJNetworkContextService-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60156274222FD0F400F5AA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED6FE3EBF910C21DDD2FB18 /* Pods-WJNetworkContextService-example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WJNetworkContextService-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WJ.WJNetworkContextService-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60156257222FD0F200F5AA6D /* Build configuration list for PBXProject "WJNetworkContextService-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60156270222FD0F400F5AA6D /* Debug */,
+				60156271222FD0F400F5AA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60156272222FD0F400F5AA6D /* Build configuration list for PBXNativeTarget "WJNetworkContextService-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60156273222FD0F400F5AA6D /* Debug */,
+				60156274222FD0F400F5AA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60156254222FD0F200F5AA6D /* Project object */;
+}

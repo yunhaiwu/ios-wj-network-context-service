@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git'
+
+platform :ios, '7.0'
+
+inhibit_all_warnings!
+
+target :'WJNetworkContextService-example' do
+
+
+pod 'WJConfig'
+pod 'WJAppContext', '~> 2.0.0'
+pod 'AFNetworking/Reachability', '~> 3.1'
+
+end
