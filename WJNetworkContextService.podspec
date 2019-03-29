@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "WJNetworkContextService"
-s.version      = "1.0"
+s.version      = "1.0.1"
 s.summary      = "network context service."
 
 s.description  = <<-DESC
@@ -31,5 +31,6 @@ s.requires_arc = true
 
 s.dependency "WJLoggingAPI"
 s.dependency "WJAppContext", '>=2.0'
+s.dependency "AFNetworking/Reachability", '~> 3.1'
 
 end

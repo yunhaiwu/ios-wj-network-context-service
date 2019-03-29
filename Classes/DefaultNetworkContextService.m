@@ -7,7 +7,7 @@
 //
 
 #import "DefaultNetworkContextService.h"
-#import "AFNetworkReachabilityManager.h"
+#import <AFNetworking/AFNetworkReachabilityManager.h>
 
 @interface DefaultNetworkContextService ()
 
